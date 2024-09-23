@@ -39,19 +39,19 @@ const config: Config = {
           routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          showReadingTime: true,
+          //showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -100,36 +100,57 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
-          title: 'Community',
+          title: 'Search',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'getentry',
+              href: 'http://getentry.ddbj.nig.ac.jp/top-j.html'
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'ARSA',
+              href: 'https://www.ddbj.nig.ac.jp/services/arsa.html'
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
+              label: 'DRASearch',
+              href: 'https://ddbj.nig.ac.jp/DRASearch/'
+            }
+          ]
         },
         {
-          title: 'More',
+          title: 'Database',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Annotated/Assembled Sequences (DDBJ)',
+              href: 'https://www.ddbj.nig.ac.jp/ddbj/index.html'
             },
-          ],
+            {
+              label: 'Sequence Read Archive (DRA)',
+              href: 'https://www.ddbj.nig.ac.jp/dra/index.html'
+            },
+            {
+              label: 'Japanese Genotype-phenotype Archive (JGA)',
+              href: 'https://www.ddbj.nig.ac.jp/jga/index.html'
+            },
+            {
+              label: 'Submission portal D-way',
+              href: 'https://ddbj.nig.ac.jp/D-way/'
+            }
+          ]
         },
+        {
+          title: 'Supercomputer',
+          items: [
+            {
+              label: 'NIG Supercomputer',
+              href: 'https://sc.ddbj.nig.ac.jp'
+            }
+          ]
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} National Institute of Genetics.`,
     },
     prism: {
       theme: prismThemes.github,

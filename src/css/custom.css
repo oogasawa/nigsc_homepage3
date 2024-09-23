@@ -80,11 +80,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 
 
-.footer {
-  background-image: url('/img/ddbj-footer-background.svg');
-  background-size: cover; /* 背景画像のサイズを指定 */
-  background-position: center; /* 背景画像の位置を中央に */
-}
 
 .blog-wrapper h2 {
   font-size: 1.5rem;
