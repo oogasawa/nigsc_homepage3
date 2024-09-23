@@ -16,6 +16,7 @@ import ErrorPageContent from '@theme/ErrorPageContent';
 import type {Props} from '@theme/Layout';
 import styles from './styles.module.css';
 
+// !!Added this line !!!
 import DDBJNavbar from './DDBJNavbar';
 
 export default function Layout(props: Props): JSX.Element {

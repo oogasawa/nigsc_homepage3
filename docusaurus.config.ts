@@ -35,6 +35,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          showLastUpdateTime: true,
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
           // Please change this to your repo.
@@ -79,6 +80,9 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      disableSwitch: true,
+    },
     navbar: {
       title: 'The NIG Supercomputer',
       logo: {
@@ -96,6 +100,11 @@ const config: Config = {
         {
           type: 'localeDropdown',
           position: 'right',
+        },
+        {
+          type: 'html',
+          position: 'right',
+          value: ` <a href="https://sc.ddbj.nig.ac.jp/search"><img src="https://sc.ddbj.nig.ac.jp/img/search.png" height="45" width="200" /></a>`,
         },
       ],
     },
