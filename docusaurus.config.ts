@@ -92,9 +92,17 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'guidesSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'システム概要',
+        },
+
+        
+        {
+          type: 'docSidebar',
+          sidebarId: 'applicationSidebar',
+          position: 'left',
+          label: '各種申請等',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
