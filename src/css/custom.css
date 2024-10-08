@@ -88,3 +88,11 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 
 
+
+.box-link {
+  background: #2f4f4f;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+}

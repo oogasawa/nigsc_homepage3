@@ -84,7 +84,7 @@ const config: Config = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'The NIG Supercomputer',
+      title: 'NIG Supercomputer',
       logo: {
         alt: 'NIG supercomputer logo',
         src: 'img/nigsc_logo.png', 
